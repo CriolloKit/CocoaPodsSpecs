@@ -23,5 +23,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
+  s.dependency 'CriolloKitDI'
+
   s.requires_arc = true
 end
